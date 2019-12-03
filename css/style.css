@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    color:lightgrey;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #222;
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    padding: 5% 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    padding: 1rem;
+    font-size: 1.6rem;
+    user-select: none;
+    transition: .1s;
+}
+
+.button:hover {
+    color: white;
+    cursor: default;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.lightshot {
+    width: 100%;
+    border: 5rem 0;
+}
+
+#image {
+    width: 100%;
+}
