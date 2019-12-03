@@ -14,7 +14,6 @@
 
 // }
 
-
 function getRandomString() {
     var result           = '';
     var characters       = 'abcdefghijklmnopqrstuvwxyz0123456789';
@@ -34,7 +33,5 @@ function randomTenImages() {
     for(i = 0; i < 10; i++)
     {
         var win = window.open("https://prnt.sc/" + getRandomString());
-        window.focus();
-        console.log(i);
     }
 };
