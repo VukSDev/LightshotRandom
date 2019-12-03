@@ -28,4 +28,13 @@ function getRandomString() {
 function randomImage() {
     var win = window.open("https://prnt.sc/" + getRandomString(), '_blank');
     win.focus();
-  }
+};
+
+function randomTenImages() {
+    for(i = 0; i < 10; i++)
+    {
+        var win = window.open("https://prnt.sc/" + getRandomString());
+        window.focus();
+        console.log(i);
+    }
+};
